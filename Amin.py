@@ -116,7 +116,7 @@ def method():
         except:
             last = first
         pers = str(int(loop)/int(len(idx)) * 100)[:4]
-        sys.stdout.write(f'\r {R}[{W}HANNAN{R}] {P}({Y}{loop}{W} / {W}{len(idx)}{P}) {W}• {G}{len(oku)}\r')
+        sys.stdout.write(f'\r {R}[{W}youcef{R}] {P}({Y}{loop}{W} / {W}{len(idx)}{P}) {W}• {G}{len(oku)}\r')
         sys.stdout.flush()
         loop+=1
         for pswd in pp:
